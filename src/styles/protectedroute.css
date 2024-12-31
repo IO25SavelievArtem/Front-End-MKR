@@ -1,0 +1,45 @@
+.protected-route-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.protected-route-content {
+  text-align: center;
+}
+
+.protected-route-content .icon {
+  color: #ff4d4d;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #555;
+}
+
+.navigate-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navigate-link:hover {
+  color: #0056b3;
+}

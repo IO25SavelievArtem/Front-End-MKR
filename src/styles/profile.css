@@ -1,0 +1,102 @@
+.profile-container {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-content {
+  display: flex;
+  gap: 16px;
+}
+
+.profile-sidebar {
+  flex: 0 0 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.profile-avatar-section {
+  margin-bottom: 16px;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.profile-username {
+  color: #555;
+  font-size: 14px;
+}
+
+.profile-stats {
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 14px;
+}
+
+.profile-stats .icon {
+  margin-right: 8px;
+}
+
+.profile-actions .button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: #555;
+  border: 1px solid #ddd;
+}
+
+.profile-posts {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.no-posts {
+  text-align: center;
+  color: #777;
+}
+
+.not-found {
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found-icon {
+  font-size: 48px;
+  color: #aaa;
+  margin-bottom: 16px;
+}
